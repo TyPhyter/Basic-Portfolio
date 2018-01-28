@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+.top-nav { 
+    position: fixed;
+    top:0;
+    height: 65px;
+    width: 100%;
+    background-color: #eee;
+    
+}
+
+#nav-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#name-card {
+    width:  200px;
+    height: 65px;
+    background-color: #318fac;
+    font-family: "Verdana", Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+    display: inline-block;
+}
+
+#nav-list {
+    height: 65px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+    float: right;
+    font-family: "Trebuchet", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+
+#nav-list li {
+    display: inline-block;
+}
+
+#nav-list li a {
+    display: block;
+    height: 100%;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+#nav-list li a:hover {
+    background-color: #999;
+}
+
+#content-area {
+    width: 960px;
+}
+
+#main-section {
+    width: 650px;
+}
+
+
+
+
+
