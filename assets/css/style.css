@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .top-nav { 
     position: fixed;
@@ -65,7 +65,7 @@ hr {
 #nav-list li a {
     display: block;
     height: 100%;
-    text-align: center;
+    text-align: center;  
     color: #777777;
     padding: 0px 16px;
     line-height: 65px;
@@ -193,4 +193,24 @@ form textarea {
     resize: none;
 }
 
+/* PORTFOLIO PAGE */
 
+.portfolio-project {
+    width: 285px;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    float: left;
+
+}
+
+.project-banner {
+    width: 100%;
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    /* font-weight: bold; */
+    color: white;
+    line-height: 50px;
+}
