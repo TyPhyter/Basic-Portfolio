@@ -26,6 +26,7 @@ hr {
     background-color: #fff;
     border-bottom: #ccc solid 2px;
     margin-bottom: 40px;
+    z-index: 1000;
 }
 
 #nav-wrapper {
@@ -125,7 +126,7 @@ hr {
 }
 
 #sidebar ul {
-    width: 80%;
+    width: 230px;
     margin: 30px auto;
     text-align: center;
 }
@@ -133,7 +134,6 @@ hr {
 #sidebar li {
     display: inline-block;
     width: 30%;
-    
 }
 
 #sidebar li img {
